@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    /* Gradiente de fundo igual ao da imagem */
+    background-image: linear-gradient(to right, #008df1, #2A94C6);
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+/* Card central */
+.card {
+    background-color: #e6e6e6;
+    width: 800px;
+    padding: 30px;
+    border-radius: 15px;
+
+    /* Sombra forte igual a imagem */
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #1C669C;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px #302e2e;
+}
+
+/* Subtítulos */
+h2 {
+    color: #1f7da9;
+}
+
+/* Parágrafos */
+p {
+    color: #000000;
+    text-align: justify;
+}
